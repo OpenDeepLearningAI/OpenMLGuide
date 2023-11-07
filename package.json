@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "OpenMLGuide",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --host",
     "build": "next build",
-    "start": "next start"
+    "start": "next start --host"
   },
   "repository": {
     "type": "git",
