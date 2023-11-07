@@ -8,8 +8,9 @@
 }
 
 .nx-w-full .nx-text-primary-600:hover{
-  text-decoration: underline;
-  text-decoration-thickness: 0.1px;
+  text-decoration: none;
+  color: #5a8e01;
+  /* text-decoration-thickness: 0.1px; */
   /* text-decoration-color: grey; */
   /* text-underline-offset: 1.5px; */
 }
