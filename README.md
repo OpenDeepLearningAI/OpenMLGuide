@@ -1,5 +1,4 @@
 [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/AIPortalGun)](https://twitter.com/AIPortalGun)
-
 [![Discord](https://img.shields.io/discord/1159002716371165194?logo=discord&label=AI%20Portal%20Gun&labelColor=%23000000&color=%2377BA00)](https://discord.gg/RHWdwEaY4m)
 
 # AI Portal Gun
