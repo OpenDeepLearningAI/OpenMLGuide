@@ -6,7 +6,6 @@
 
 The AI Portal Gun is a comprehensive resource that offers a smooth path from AI fundamentals to advanced frontiers. It is designed to keep you up to date with the latest developments in the AI universe and provide you with the knowledge and skills you need to become an expert in the field. The website is accessible to anyone interested in AI, from novices to seasoned professionals.
 
----
 
 ## Contributing
 
@@ -20,7 +19,6 @@ Contributions to the guide are welcome! Here are some ways you can help:
 
 - Fix bugs: If you find a mistake, bug or formatting issue, please open a pull request to fix it.
 
----
 
 ## Development
 
