@@ -36,27 +36,11 @@ import myGif from 'public/gif/rl.gif'
 
 - [Key Papers in Deep RL](https://spinningup.openai.com/en/latest/spinningup/keypapers.html) is a part of OpenAI's Spinning Up in Deep RL project, offers a categorized list of essential papers in deep reinforcement learning. It provides brief descriptions and algorithm references. Maintained by OpenAI.
 
-### Papers 
-
-- [Q-learning](https://www.gatsby.ucl.ac.uk/~dayan/papers/cjch.pdf) (1992): Introduced an off-policy reinforcement learning algorithm where agents learn to maximize reward through action value estimates, enabling agents to determine optimal behavior for Markov decision processes. This algorithm is one of the fundamental RL methods.
-
-- [Policy invariance under reward transformations: Theory and application to reward shaping](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/NgHaradaRussell-shaping-ICML1999.pdf) (1999): explores reward shaping in RL, aiming to encourage desired behavior in agents. It introduces the policy invariance concept and outlines a method for reward function modification to achieve this goal.
-
-- [Learning to Predict by the Methods of Temporal Differences](https://www.researchgate.net/publication/225264698_Learning_to_Predict_by_the_Method_of_Temporal_Differences) (1988):  Presents temporal difference learning, a model-free reinforcement learning algorithm for state value prediction. It updates value estimates based on the discrepancy between predicted and actual rewards.
-
-- [Actor-Critic Algorithms](https://proceedings.neurips.cc/paper_files/paper/1999/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf) (2003): Introduced actor-critic algorithms, uniting policy-based and value-based methods. The actor learns state-action policies, while the critic learns value functions. Various algorithm variants were proposed, including the advantage actor-critic and natural actor-critic.
-
-- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) (2017): Presented an actor-critic algorithm for stable deep reinforcement learning using clipped surrogate objectives for the policy update and adaptive KL penalty coefficients for reliable performance. This algorithm enables efficient training of policies in complex environments.
-
 ### Guides
 
 - [Awesome Reinforcement Learning](https://github.com/aikorea/awesome-rl) compiles resources on reinforcement learning, encompassing theory, applications, codes, papers, books, tutorials, and open-source platforms. 
 
 - [OpenAI Spinning Up](https://spinningup.openai.com/en/latest/): An OpenAI educational resource, simplifies deep reinforcement learning exploration. Tailored for aspiring researchers, it introduces RL fundamentals and various algorithm types. The material delves into specific algorithms, such as TRPO, PPO, and DQN, providing an invaluable foundation for understanding advanced AI applications in today's world.
-
-### Books
-
-- [Grokking Deep Reinforcement Learning](https://www.goodreads.com/en/book/show/50336343) by Miguel Morales melds annotated Python code with lucid explanations to delve into Deep Reinforcement Learning (DRL) techniques. It offers insight into algorithm operations and guides you in creating your own DRL agents through evaluative feedback.
 
 
 ### Reference
@@ -69,3 +53,19 @@ import myGif from 'public/gif/rl.gif'
 
 - [Minari](https://minari.farama.org/) is a Python API, hosts Offline Reinforcement Learning datasets compatible with the Gymnasium API. Publicly accessible on a [Farama GCP bucket](https://console.cloud.google.com/storage/browser/minari-datasets;tab=objects?forceOnBucketsSortingFiltering=false&amp;project=mcmes-345620&amp;prefix=&amp;forceOnObjectsSortingFiltering=false), it offers features like episode sampling, trajectory filtering, and dataset generation.
 
+### Papers 
+
+- [Q-learning](https://www.gatsby.ucl.ac.uk/~dayan/papers/cjch.pdf) (1992): Introduced an off-policy reinforcement learning algorithm where agents learn to maximize reward through action value estimates, enabling agents to determine optimal behavior for Markov decision processes. This algorithm is one of the fundamental RL methods.
+
+- [Policy invariance under reward transformations: Theory and application to reward shaping](https://people.eecs.berkeley.edu/~pabbeel/cs287-fa09/readings/NgHaradaRussell-shaping-ICML1999.pdf) (1999): explores reward shaping in RL, aiming to encourage desired behavior in agents. It introduces the policy invariance concept and outlines a method for reward function modification to achieve this goal.
+
+- [Learning to Predict by the Methods of Temporal Differences](https://www.researchgate.net/publication/225264698_Learning_to_Predict_by_the_Method_of_Temporal_Differences) (1988):  Presents temporal difference learning, a model-free reinforcement learning algorithm for state value prediction. It updates value estimates based on the discrepancy between predicted and actual rewards.
+
+- [Actor-Critic Algorithms](https://proceedings.neurips.cc/paper_files/paper/1999/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf) (2003): Introduced actor-critic algorithms, uniting policy-based and value-based methods. The actor learns state-action policies, while the critic learns value functions. Various algorithm variants were proposed, including the advantage actor-critic and natural actor-critic.
+
+- [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347) (2017): Presented an actor-critic algorithm for stable deep reinforcement learning using clipped surrogate objectives for the policy update and adaptive KL penalty coefficients for reliable performance. This algorithm enables efficient training of policies in complex environments.
+
+
+### Books
+
+- [Grokking Deep Reinforcement Learning](https://www.goodreads.com/en/book/show/50336343) by Miguel Morales melds annotated Python code with lucid explanations to delve into Deep Reinforcement Learning (DRL) techniques. It offers insight into algorithm operations and guides you in creating your own DRL agents through evaluative feedback.
